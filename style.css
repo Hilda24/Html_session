@@ -22,3 +22,11 @@ box-shadow: inset 12px 12px 85px #b8e6c7,
     font-size: 2rem;
     text-align: center;
 }
+
+.btn {
+    float: right;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
