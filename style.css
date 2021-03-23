@@ -10,11 +10,15 @@ body {
 background: #ccffdd;
 box-shadow: inset 12px 12px 85px #b8e6c7,
             inset -12px -12px 85px #e0fff3;
-            padding: 4rem;
+            padding: 2rem 3rem;
 }
 
 .inputfield {
     margin-bottom: 0.5rem;
+    /* display: inline; */
+}
+.custom_select{
+    display: inline-block;
 }
 
 .title {
@@ -25,8 +29,9 @@ box-shadow: inset 12px 12px 85px #b8e6c7,
 
 .btn {
     float: right;
-    background-color: #fff;
+    background-color: #fff  !important;
     border-color: #fff;
+    box-shadow: none;
     border-radius: 5px;
-    padding: 0.2rem;
+    padding: 0.2rem 0.4rem;
 }
