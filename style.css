@@ -1,3 +1,24 @@
-body{
+body {
+    /* text-align: center; */
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 2rem;
+    border-radius: 45px;
+background: #ccffdd;
+box-shadow: inset 12px 12px 85px #b8e6c7,
+            inset -12px -12px 85px #e0fff3;
+            padding: 4rem;
+}
+
+.inputfield {
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    color: #7eca9c;
+    font-size: 2rem;
     text-align: center;
 }
